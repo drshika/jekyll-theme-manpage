@@ -11,6 +11,7 @@ $border-color-light: rgba(40, 42, 54, 0.3);
 $link-hover-color-light: #ff79c6;      // Pink
 $placeholder-color-light: #6272a4;
 $highlight-color-light: rgba(#bd93f9, 0.15);
+$toc-bg-color-light: rgba(98, 114, 164, 0.05);
 
 // Dark mode base colors
 $dark-theme-color: #bd93f9;     // Purple
@@ -25,6 +26,7 @@ $border-color-dark: rgba(248, 248, 242, 0.3);
 $link-hover-color-dark: #ff79c6;       // Pink
 $placeholder-color-dark: #bd93f9;
 $highlight-color-dark: rgba(#bd93f9, 0.2);
+$toc-bg-color-dark: rgba(189, 147, 249, 0.05);
 
 // Light mode syntax colors
 $syntax-comment-light: #6272a4;    // Comment
@@ -86,6 +88,7 @@ $syntax-inserted-dark: #50fa7b;    // Green
   --syntax-deleted: #{$syntax-deleted-light};
   --syntax-inserted: #{$syntax-inserted-light};
   --highlight-color: #{$highlight-color-light};
+  --toc-bg-color: #{$toc-bg-color-light};
 }
 
 
@@ -115,4 +118,5 @@ $syntax-inserted-dark: #50fa7b;    // Green
   --syntax-deleted: #{$syntax-deleted-dark};
   --syntax-inserted: #{$syntax-inserted-dark};
   --highlight-color: #{$highlight-color-dark};
+  --toc-bg-color: #{$toc-bg-color-dark};
 }

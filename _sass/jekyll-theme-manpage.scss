@@ -502,10 +502,10 @@ a {
 }
 
 .toc {
-  background: rgb(from var(--theme-color) r g b / 0.05);
+  background-color: var(--toc-bg-color);
   padding: 1.5rem .5rem 1rem 1.5rem;
   border-radius: 4px;
-
+  
   h2 {
     margin-top: 0;
     margin-bottom: 1rem;

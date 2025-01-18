@@ -11,6 +11,7 @@ $border-color-light: rgba(36, 41, 46, 0.3);
 $link-hover-color-light: #035fc7;       // Darker Blue
 $placeholder-color-light: #959da5;
 $highlight-color-light: rgba(#0366d6, 0.15);
+$toc-bg-color-light: rgba(3, 102, 214, 0.05);
 
 // Dark mode base colors
 $dark-theme-color: #58a6ff;         // Light Blue
@@ -24,6 +25,7 @@ $code-bg-color-dark: #161b22;          // Slightly Lighter Background
 $border-color-dark: rgba(201, 209, 217, 0.3);
 $link-hover-color-dark: #79c0ff;       // Lighter Blue
 $placeholder-color-dark: #6e7681;
+$toc-bg-color-dark: rgba(88, 166, 255, 0.05);
 
 // Light mode syntax colors
 $syntax-comment-light: #6a737d;    // Gray
@@ -86,6 +88,7 @@ $highlight-color-dark: rgba(#58a6ff, 0.2);
   --syntax-deleted: #{$syntax-deleted-light};
   --syntax-inserted: #{$syntax-inserted-light};
   --highlight-color: #{$highlight-color-light};
+  --toc-bg-color: #{$toc-bg-color-light};
 }
 
 
@@ -115,4 +118,5 @@ $highlight-color-dark: rgba(#58a6ff, 0.2);
   --syntax-deleted: #{$syntax-deleted-dark};
   --syntax-inserted: #{$syntax-inserted-dark};
   --highlight-color: #{$highlight-color-dark};
+  --toc-bg-color: #{$toc-bg-color-dark};
 }

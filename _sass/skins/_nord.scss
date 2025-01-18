@@ -11,6 +11,7 @@ $border-color-light: rgba(46, 52, 64, 0.3);  // Nord Polar Night 0 with opacity
 $link-hover-color-light: #88c0d0;        // Nord Frost 1
 $placeholder-color-light: #4c566a;
 $highlight-color-light: rgba(#5e81ac, 0.15);
+$toc-bg-color-light: rgba(94, 129, 172, 0.05);
 
 // Dark mode base colors
 $dark-theme-color: #88c0d0;      // Nord Frost 1
@@ -25,6 +26,7 @@ $border-color-dark: rgba(236, 239, 244, 0.3);  // Nord Snow Storm 3 with opacity
 $link-hover-color-dark: #8fbcbb;         // Nord Frost 0
 $placeholder-color-dark: #81a1c1;
 $highlight-color-dark: rgba(#88c0d0, 0.2);
+$toc-bg-color-dark: rgba(136, 192, 208, 0.05);
 
 // Light mode syntax colors
 $syntax-comment-light: #4c566a;    // Polar Night 3
@@ -86,6 +88,7 @@ $syntax-inserted-dark: #a3be8c;    // Aurora Green
   --syntax-deleted: #{$syntax-deleted-light};
   --syntax-inserted: #{$syntax-inserted-light};
   --highlight-color: #{$highlight-color-light};
+  --toc-bg-color: #{$toc-bg-color-light};
 }
 
 
@@ -115,4 +118,5 @@ $syntax-inserted-dark: #a3be8c;    // Aurora Green
   --syntax-deleted: #{$syntax-deleted-dark};
   --syntax-inserted: #{$syntax-inserted-dark};
   --highlight-color: #{$highlight-color-dark};
+  --toc-bg-color: #{$toc-bg-color-dark};
 }

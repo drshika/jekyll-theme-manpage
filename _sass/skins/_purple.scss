@@ -11,6 +11,7 @@ $border-color-light: rgba(111, 66, 193, 0.3);  // Purple with opacity
 $link-hover-color-light: rgba(104, 36, 222, 0.4666666667);       // Lighter Purple
 $placeholder-color-light: #8a8a8a;
 $highlight-color-light: rgba(#6f42c1, 0.15);
+$toc-bg-color-light: rgba(111, 66, 193, 0.05);
 
 // Dark mode base colors
 $dark-theme-color: #9f74d5;         // Light Purple
@@ -25,6 +26,7 @@ $border-color-dark: rgba(159, 116, 213, 0.3);  // Light Purple with opacity
 $link-hover-color-dark: rgba(159, 116, 213, 0.7);       // Light Purple with higher opacity for dark mode visibility
 $placeholder-color-dark: #808080;
 $highlight-color-dark: rgba(#9f74d5, 0.2);
+$toc-bg-color-dark: rgba(159, 116, 213, 0.05);
 
 // Light mode syntax colors
 $syntax-comment-light: #6e6e6e;
@@ -86,6 +88,7 @@ $syntax-inserted-dark: #56d364;
   --syntax-deleted: #{$syntax-deleted-light};
   --syntax-inserted: #{$syntax-inserted-light};
   --highlight-color: #{$highlight-color-light};
+  --toc-bg-color: #{$toc-bg-color-light};
 }
 
 
@@ -115,4 +118,5 @@ $syntax-inserted-dark: #56d364;
   --syntax-deleted: #{$syntax-deleted-dark};
   --syntax-inserted: #{$syntax-inserted-dark};
   --highlight-color: #{$highlight-color-dark};
+  --toc-bg-color: #{$toc-bg-color-dark};
 }

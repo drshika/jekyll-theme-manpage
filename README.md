@@ -29,41 +29,8 @@ A minimalist Jekyll theme inspired by Linux man pages. Perfect for personal webs
 
 ## Installation
 
-### Local Installation
-
-Add this line to your Jekyll site's `Gemfile`:
-
-```ruby
-gem "jekyll-theme-manpage"
-```
-
-And add this line to your Jekyll site's `_config.yml`:
-
-```yaml
-theme: jekyll-theme-manpage
-```
-
-Then run
-
-```bash
-bundle install
-```
-
-### GitHub Pages Installation
-
-(NOT SUPPORTED YET) For GitHub Pages, add this to your site's `_config.yml`:
-
-```yaml
-remote_theme: drshika/jekyll-theme-manpage
-plugins:
-  - jekyll-remote-theme
-```
-
-Add `jekyll-remote-theme` to the Gemfile:
-
-```ruby:Gemfile
-gem 'jekyll-remote-theme'
-```
+1. Follow the step to [create repository from template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
+2. When prompted to select a branch, select the `template` branch. 
 
 ## Usage
 
