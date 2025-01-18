@@ -8,10 +8,8 @@ social:
   - name: linkedin
     text: "@username"
     url: "https://linkedin.com/in/username"
-  - name: twitter
-    text: "@username"
-    url: "https://twitter.com/username"
   - name: github
     text: "@username"
     url: "https://github.com/username"
+  # add any additional social links here following the syntax from above.
 email: "username(at)example(dot)com"
